@@ -1,0 +1,22 @@
+{
+  "name": "twitter-bot",
+  "version": "1.0.0",
+  "description": "Un simple bot de twitter",
+  "author": "Arturo Coronel <aoitsu3@gmail.com> (https://datyayu.xyz)",
+  "license": "MIT",
+  "main": "server.js",
+
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/datyayu-xyz/twitter-bot"
+  },
+
+  "scripts": {
+    "start": "node server.js"
+  },
+
+  "dependencies": {
+    "express": "^4.14.0",
+    "twitter": "^1.3.0"
+  }
+}
